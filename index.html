@@ -30,8 +30,8 @@
 			<section class="container" id="main">
 				
 					
-					<div class="panel partial outage">
-						<span data-l10n-id="Partial-outage">Partial outage</span> <span data-l10n-id="on">on</span> All services, FTP, LiPAD, LiPAD-FMC, PL2 Geonodes, Storage Servers.
+					<div class="panel major outage">
+						<span data-l10n-id="Major-outage">Major outage</span> <span data-l10n-id="on">on</span> FTP, Storage Servers.
 					</div>
 					
 				
@@ -44,7 +44,7 @@
 					</li>
 					
 					<li>
-						All services <span class="status partial outage" data-l10n-id="partial-outage">partial outage</span>
+						All services <span class="status operational" data-l10n-id="operational">operational</span>
 					</li>
 					
 					<li>
@@ -56,19 +56,19 @@
 					</li>
 					
 					<li>
-						FTP <span class="status partial outage" data-l10n-id="partial-outage">partial outage</span>
+						FTP <span class="status major outage" data-l10n-id="major-outage">major outage</span>
 					</li>
 					
 					<li>
-						LiPAD <span class="status partial outage" data-l10n-id="partial-outage">partial outage</span>
+						LiPAD <span class="status operational" data-l10n-id="operational">operational</span>
 					</li>
 					
 					<li>
-						LiPAD-FMC <span class="status partial outage" data-l10n-id="partial-outage">partial outage</span>
+						LiPAD-FMC <span class="status operational" data-l10n-id="operational">operational</span>
 					</li>
 					
 					<li>
-						PL2 Geonodes <span class="status partial outage" data-l10n-id="partial-outage">partial outage</span>
+						PL2 Geonodes <span class="status operational" data-l10n-id="operational">operational</span>
 					</li>
 					
 					<li>
@@ -76,7 +76,7 @@
 					</li>
 					
 					<li>
-						Storage Servers <span class="status partial outage" data-l10n-id="partial-outage">partial outage</span>
+						Storage Servers <span class="status major outage" data-l10n-id="major-outage">major outage</span>
 					</li>
 					
 				</ul>
@@ -88,18 +88,10 @@
 						<span class="date moment">2017-06-12 15:17:45 UTC</span>
 
 						
-							<span class="label partial outage float-right" data-l10n-id="partial-outage">partial outage</span>
+							<span class="label major outage float-right" data-l10n-id="major-outage">major outage</span>
 						
-						
-							<span class="label system float-right">All services</span>
 						
 							<span class="label system float-right">FTP</span>
-						
-							<span class="label system float-right">LiPAD</span>
-						
-							<span class="label system float-right">LiPAD-FMC</span>
-						
-							<span class="label system float-right">PL2 Geonodes</span>
 						
 							<span class="label system float-right">Storage Servers</span>
 						
@@ -108,8 +100,14 @@
 						<span class="title">Critical Issue on IT Equipment/Servers</span>
 						<h3>June 12</h3>
 
+<h4>PM</h4>
+
 <ul>
-<li>The servers are up at the moment, but they may experience emergency shutdown within the day. Please try to retrieve the data you need before that. The shutdown usually happens around 12~1 PM when the temperature starts to rise, but it may occur before that. </li>
+<li>Our sensors has reported reaching temperatures of 30c and 39c in the cold and host aisle respectively. </li>
+<li><p>We have shutdown storage services (maria, pmsat-nas, and pl2-storage). Other services are still up.</p>
+
+<h4>AM</h4></li>
+<li><p>The servers are up at the moment, but they may experience emergency shutdown within the day. Please try to retrieve the data you need before that. The shutdown usually happens around 12~1 PM when the temperature starts to rise, but it may occur before that. </p></li>
 <li>We may shut down the storage services (Maria, PMSAT, and PL2-storage) on 1 PM today. The servers may also shutdown before this time due to them reaching critical temperatures. The FTP server has already experience an emergency shutdown.</li>
 </ul>
 
