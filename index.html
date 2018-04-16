@@ -29,9 +29,11 @@
 
 			<section class="container" id="main">
 				
-					<div class="panel operational" data-l10n-id="systems-operational">
-						All Systems operational.
+					
+					<div class="panel major outage">
+						<span data-l10n-id="Major-outage">Major outage</span> <span data-l10n-id="on">on</span> LiPAD.
 					</div>
+					
 				
 
 				<h4 data-l10n-id="systems">Systems</h4>
@@ -58,7 +60,7 @@
 					</li>
 					
 					<li>
-						LiPAD <span class="status operational" data-l10n-id="operational">operational</span>
+						LiPAD <span class="status major outage" data-l10n-id="major-outage">major outage</span>
 					</li>
 					
 					<li>
@@ -83,58 +85,23 @@
 				
 					
 					<div class="incident">
-						<span class="date moment">2017-10-09 15:02:14 UTC</span>
+						<span class="date moment">2018-04-16 07:10:11 UTC</span>
 
 						
-							<span class="label operational float-right" data-l10n-id="resolved">resolved</span>
+							<span class="label major outage float-right" data-l10n-id="major-outage">major outage</span>
 						
-						
-							<span class="label system float-right">All services</span>
-						
-							<span class="label system float-right">FTP</span>
 						
 							<span class="label system float-right">LiPAD</span>
 						
-							<span class="label system float-right">LiPAD-FMC</span>
-						
-							<span class="label system float-right">PL2 Geonodes</span>
-						
-							<span class="label system float-right">Storage Servers</span>
-						
 						<hr/>
 
-						<span class="title">Unexpected downtime at 9PM, October 9, 2017</span>
-						<p>Our server sensors have detected that the datacenter ambient temperature has reached critical levels. This has triggered some of our monitoring scripts to shut down our storage servers for safety precautions and protection of the data stored in the hard disks. </p>
+						<span class="title">LiPAD is down for maintenance</span>
+						<p>LiPAD is currently down for maintenance.</p>
 
-<p>We will try to bring our services back up by 10AM tomorrow, October 10, 2017.</p>
+<p>An issue with LiPAD's geoserver has been identified which prevented data requests from going through. This is seen with pink boxes on where shapefiles should be rendered. We are already working to restore the service. </p>
 
-<p>Thank you for your understanding and patience.</p>
-
-						
-							<p><em>Update <span class="moment">2017-10-14 08:38:54 UTC</span></em></p>
-							<p>The incident was due to usage of the AC's remote to turn off the adjacent AC. The datacenter is housed in glass, thus even the AC's inside the DC had been turned off. </p>
-
-						
-					</div>
-					
-					<div class="incident">
-						<span class="date moment">2017-08-19 16:36:21 UTC</span>
-
-						
-							<span class="label operational float-right" data-l10n-id="resolved">resolved</span>
-						
-						
-							<span class="label system float-right">All services</span>
-						
-						<hr/>
-
-						<span class="title"> Electrical works in NEC </span>
-						<p>All servers will be turned off to give way to electrical works to be done in the NEC building.
-This activity will last from 8am to 6pm of August 20m 2017.</p>
-
-						
-							<p><em>Update <span class="moment">2017-08-21 00:36:03 UTC</span></em></p>
-							<p>The electrical works involving our servers is done. All services now running.</p>
+<p>Please bear with us as we are no longer part of the PHIL-LiDAR Program but still maintain the service.
+Thank you for your usual patience and support.</p>
 
 						
 					</div>
